@@ -36,23 +36,72 @@ main {
   grid-template-columns: 290px 440px;
   grid-template-rows: 280px;
   grid-template-areas: "left right";
+  margin-top: 260px;
+  border-radius: 12px;
 }
 
 .drawers {
   width: 290px;
   height: 280px;
   grid-area: left;
+  border-radius: 12px 0 0 12px;
 }
 
 .content {
   width: 440px;
   height: 280px;
   grid-area: right;
+  border-radius: 0 12px 12px 0;
+  background: white;
+}
+
+.heavy,
+.light,
+.michelle {
+  margin-left: 40px;
+  color: hsl(217, 19%, 35%);
+}
+
+.heavy {
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.light {
+  font-weight: 400;
+  font-size: 13px;
+  margin-top: 20px;
 }
 
 .michelle {
   display: grid;
-  grid-template-columns: 80px 280px 80px;
+  height: 40px;
+  grid-template-columns: 50px 260px 130px;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.name {
+  font-weight: 700;
+}
+
+.date {
+  color: hsl(212, 23%, 69%);
+}
+
+.socials {
+  width: 40px;
+  height: 40px;
+  background: hsl(210, 46%, 95%);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.shareIcon {
+  width: 50%;
 }
 
 .avatar {
@@ -62,6 +111,19 @@ main {
 }
 
 /*HIDDEN POP UP*/
-.share {
-  display: none;
+.popup {
+  display: hidden;
+  width: 160px;
+  height: 30px;
+  background-color: hsl(217, 19%, 35%);
+  color: white;
+  border-radius: 15px;
+  position: relative;
+  top: -200px;
+  left: 800px;
+}
+
+.popupInside {
+  display: grid;
+  grid-template-columns: 40px 40px 40px 40px;
 }
