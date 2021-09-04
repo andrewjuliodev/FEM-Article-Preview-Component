@@ -113,15 +113,19 @@ main {
 }
 
 /*HIDDEN POP UP*/
+.popupCombo {
+  display: none;
+}
+
 .popup {
   grid-area: share;
-  width: 230px;
-  height: 50px;
+  width: 234px;
+  height: 56px;
   background-color: hsl(217, 19%, 35%);
   color: white;
   border-radius: 12px;
   margin-left: 542px;
-  margin-top: -150px;
+  margin-top: -155px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -139,7 +143,8 @@ main {
 }
 
 .share {
-  margin-right: 10px;
+  margin-right: 30px;
+  margin-left: 25px;
   font-size: 12px;
   font-weight: 500;
   color: hsl(212, 23%, 69%);
@@ -147,7 +152,7 @@ main {
 }
 
 .social {
-  margin-right: 13px;
+  margin-right: 14px;
 }
 
 .arrow {
