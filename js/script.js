@@ -1,14 +1,15 @@
 const share = document.querySelector(".socials");
 const popup = document.querySelector(".popupCombo");
+const global = document.querySelector(".global");
 
 share.addEventListener("click", function () {
   if (popup.style.display === "none") {
     popup.style.display = "inline";
   } else {
-    popup.style.display = "none";
+    window.addEventListener("mouseup", function (e) {
+      if (e.target.class !== global && e.target.class !== global) {
+        popup.style.display = "none";
+      }
+    });
   }
-});
-
-popup.addEventListener("click", function () {
-  popup.style.display = "none";
 });
