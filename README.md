@@ -1,4 +1,4 @@
 # Frontend Mentor - Article preview component
 
-![Design preview for the Article preview component coding challenge](Final.JPG)
+![Design preview for the Article preview component coding challenge](Final.JPEG)
 
