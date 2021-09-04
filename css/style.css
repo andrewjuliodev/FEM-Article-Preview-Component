@@ -20,3 +20,34 @@ body {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
+
+main {
+  width: 1440px;
+  height: 800px;
+  background-color: hsl(210, 46%, 95%);
+}
+
+.card {
+  width: 730px;
+  height: 280px;
+  display: grid;
+  grid-template-columns: 290px 440px;
+  grid-template-rows: 280px;
+  grid-template-areas: "left right";
+}
+
+.drawers {
+  width: 290px;
+  height: 280px;
+  grid-area: left;
+}
+
+.content {
+  width: 440px;
+  height: 280px;
+  grid-area: right;
+}
+
+.share {
+  display: none;
+}
