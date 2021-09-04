@@ -78,7 +78,7 @@ main {
   display: grid;
   height: 40px;
   grid-template-columns: 50px 260px 130px;
-  font-size: 14px;
+  font-size: 13px;
   margin-top: 20px;
 }
 
@@ -112,18 +112,38 @@ main {
 
 /*HIDDEN POP UP*/
 .popup {
-  display: hidden;
-  width: 160px;
-  height: 30px;
+  grid-area: share;
+  width: 240px;
+  height: 50px;
   background-color: hsl(217, 19%, 35%);
   color: white;
-  border-radius: 15px;
-  position: relative;
-  top: -200px;
-  left: 800px;
+  border-radius: 12px;
+  margin-left: -185px;
+  margin-top: -150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .popupInside {
-  display: grid;
-  grid-template-columns: 40px 40px 40px 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social {
+  width: 20%;
+  height: 20%;
+}
+
+.share {
+  margin-right: 10px;
+  font-size: 12px;
+  font-weight: 500;
+  color: hsl(212, 23%, 69%);
+  letter-spacing: 4px;
+}
+
+.social {
+  margin-right: 13px;
 }
