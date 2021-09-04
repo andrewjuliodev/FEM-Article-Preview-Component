@@ -138,21 +138,26 @@ main {
 }
 
 .social {
-  width: 20%;
-  height: 20%;
+  width: 60%;
+  height: 60%;
+}
+
+a {
+  text-decoration: none;
+  margin-top: 5px;
 }
 
 .share {
   margin-right: 30px;
   margin-left: 25px;
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 500;
   color: hsl(212, 23%, 69%);
   letter-spacing: 4px;
 }
 
 .social {
-  margin-right: 14px;
+  margin-right: 16px;
 }
 
 .arrow {
