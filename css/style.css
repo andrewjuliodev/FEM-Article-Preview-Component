@@ -45,6 +45,8 @@ main {
   height: 280px;
   grid-area: left;
   border-radius: 12px 0 0 12px;
+  object-fit: cover;
+  object-position: left;
 }
 
 .content {
@@ -118,7 +120,7 @@ main {
   background-color: hsl(217, 19%, 35%);
   color: white;
   border-radius: 12px;
-  margin-left: 545px;
+  margin-left: 542px;
   margin-top: -150px;
   display: flex;
   justify-content: center;
@@ -154,5 +156,5 @@ main {
   border-left: 12px solid transparent;
   border-right: 12px solid transparent;
   border-top: 12px solid hsl(217, 19%, 35%);
-  margin-left: 650px;
+  margin-left: 648px;
 }
