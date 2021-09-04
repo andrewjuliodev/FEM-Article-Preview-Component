@@ -7,7 +7,7 @@ share.addEventListener("click", function () {
     popup.style.display = "inline";
   } else {
     window.addEventListener("mouseup", function (e) {
-      if (e.target.class !== global && e.target.class !== global) {
+      if (e.target.class !== global) {
         popup.style.display = "none";
       }
     });
